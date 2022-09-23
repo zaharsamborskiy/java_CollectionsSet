@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static final String WRONG_EMAIL_ANSWER = "Неверный формат email";
+
     
     /* TODO:
         Пример вывода списка Email, после ввода команды LIST в консоль:
