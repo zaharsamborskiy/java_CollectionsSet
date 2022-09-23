@@ -1,13 +1,11 @@
 package practice;
 
-import net.sf.saxon.functions.UpperCase;
-
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class EmailList {
-    public static final String WRONG_EMAIL_ANSWER = "Неверный формат email";
+
     TreeSet<String> treeSet = new TreeSet<>();
 
     public void add(String email) {
@@ -19,7 +17,7 @@ public class EmailList {
         if (matcher.matches()) {
             treeSet.add(email.toLowerCase());
         } else {
-            System.out.println(WRONG_EMAIL_ANSWER);
+            System.out.println("Неверный формат email");
         }
     }
 

@@ -1,6 +1,9 @@
+package practice;
+
 import java.util.Scanner;
 
 public class Main {
+    public static final String WRONG_EMAIL_ANSWER = "Неверный формат email";
 
     
     /* TODO:
@@ -19,15 +22,15 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         while (true) {
             String input = scanner.nextLine();
             if (input.equals("0")) {
                 break;
             }
-            
+
             //TODO: write code here
-            
+
         }
     }
 }
